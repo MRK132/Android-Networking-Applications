@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "212823077906",
+    "firebase_url": "https://bluetoothoption1.firebaseio.com",
+    "project_id": "bluetoothoption1",
+    "storage_bucket": "bluetoothoption1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212823077906:android:d0268b143f923e49",
+        "android_client_info": {
+          "package_name": "com.example.mark.bluetooth_option_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212823077906-6rvg6vej3fv67jgck189ejbjffb4u86r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mark.bluetooth_option_1",
+            "certificate_hash": "3ffea5caa509808f3519f83751ec017876fac924"
+          }
+        },
+        {
+          "client_id": "212823077906-62qjri5tgoamopfhoi9mnus96su5dv8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBWSFsoqLCaGqy_Nay1lMTMkumr_pB33Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212823077906-62qjri5tgoamopfhoi9mnus96su5dv8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

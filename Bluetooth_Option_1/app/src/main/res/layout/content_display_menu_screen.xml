@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_display_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior"
+    tools:context="com.example.mark.bluetooth_option_1.DisplayMenuScreen"
+    tools:showIn="@layout/activity_display_menu_screen">
+
+    <Button
+        android:text="Bluetooth Devices Discovered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BluetoothActivity"
+        style="@style/Widget.AppCompat.Button"
+        android:onClick="onButtonClick"
+        android:layout_below="@+id/GPSActivity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:text="GPS Locations Visited"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GPSActivity"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        android:onClick="onButtonClick"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Select one of the below options to view data on GPS Locations or Blutooth Devices discovered:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:id="@+id/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        android:layout_below="@+id/WelcomeMessage"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Bluetooth device survey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/WelcomeMessage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Mark Garvey 15425538"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:id="@+id/textView2"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>
